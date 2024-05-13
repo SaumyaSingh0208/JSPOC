@@ -1,21 +1,21 @@
-// const score = 400;
-// console.log(score); //400
+const score = 400;
+console.log(score); //400
 
-// const balance = new Number(100);
-// console.log(balance); //[Number: 100]
+const balance = new Number(100);
+console.log(balance); //[Number: 100]
 
-// console.log(balance.toString().length); //3
-// console.log(balance.toFixed(2)); //100.00
+console.log(balance.toString().length); //3
+console.log(balance.toFixed(2)); //100.00
 
-// const num= 123.8966
-// console.log(num.toPrecision(3)); //124
+const num= 123.8966
+console.log(num.toPrecision(3)); //124
 
-// const hundreds = 1000000000;
-// console.log(hundreds.toLocaleString()); //1,000,000,000
-// //Makes it readable but is in US standard so comma is placed after 3 digits
+const hundreds = 1000000000;
+console.log(hundreds.toLocaleString()); //1,000,000,000
+//Makes it readable but is in US standard so comma is placed after 3 digits
 
-// console.log(hundreds.toLocaleString('en-IN'));  //1,00,00,00,000
-// //To convert it according to Indian standards
+console.log(hundreds.toLocaleString('en-IN'));  //1,00,00,00,000
+//To convert it according to Indian standards
 
 //********************************* Maths *********************/
 console.log(Math); //Object [Math] {}
